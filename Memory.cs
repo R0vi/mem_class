@@ -37,7 +37,7 @@ namespace Csharp_cstest
             //Loop door alle processen op de pc
             foreach (Process proc in Process.GetProcesses())
             {
-                //Als process naam csgo is
+                //Als process naam goed is
                 if (proc.ProcessName == process)
                 {
                     //set processadress
